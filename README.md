@@ -47,9 +47,11 @@ All commands and connection details are logged to:
 ```
 server.log
 ```
-
 ---
-
+Or the stdout of your docker container so you directly access it from:
+```
+docker logs REPLACE_WITH_YOURCONTAINERID
+```
 ## 🐍 Installation
 
 ### Clone the repository
